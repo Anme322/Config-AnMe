@@ -1,8 +1,10 @@
 import "./index.css";
-import MY_IMAGE from "./assets/photo.png";
+import JSImage from "./assents/image12.png";
 
 
-const img = document.createElement("img");
-img.src = MY_IMAGE;
-document.body.append(img);
-console.log('Hello World!');
+const mainTitle = document.createElement("h1");
+mainTitle.textContent = "I love JavaScript";
+const JSImageHTML = document.createElement("img");
+JSImageHTML.src = JSImage;
+
+document.body.append(mainTitle, JSImageHTML);
